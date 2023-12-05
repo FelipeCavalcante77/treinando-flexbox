@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins&family=Satisfy&display=swap');
+body{
+    background: black;
+    width: 100vw;
+    height: 100vh;
+
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    font-weight: 700;
+    margin-left: 20px;
+    font-size: 24px;
+}
+.link-topo{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.link-topo::after{
+    content: ' | '; /*Insere conteudo no HTML*/
+    padding-left: 10px;
+}
+.header{
+    background: #880015;
+    height: 70px;
+    color: #fff;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.main{
+    background: black;
+
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.quadrado{
+    width: 200px;
+    height: 200px;
+
+    border: 3px solid white;
+    margin: 15px;
+    
+}
